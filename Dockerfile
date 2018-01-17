@@ -7,11 +7,11 @@ RUN apk add --update \
     gnupg \
     jq \
     nodejs \
-    npm \
+    nodejs-npm \
     openssl\
     python \
     py-pip \
-    uuid \
+    util-linux \
     wget
 RUN pip install --upgrade pip && pip install awscli
 RUN npm install jsonlint -g
